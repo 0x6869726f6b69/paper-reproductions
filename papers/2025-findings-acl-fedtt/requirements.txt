@@ -1,0 +1,9 @@
+# Local (CPU) runs: tests, parameter counts, smoke runs.
+# On Colab, torch, transformers, numpy, pandas and matplotlib are already installed; the notebooks add datasets.
+# Checked with torch 2.9.1 (CPU) and transformers 5.24 locally, and with Colab's defaults (Python 3.13) on the GPU.
+torch
+transformers
+datasets>=2.18
+peft>=0.12
+numpy
+matplotlib

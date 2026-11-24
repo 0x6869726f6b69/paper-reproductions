@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv*/
+
+# working outputs of local runs (tokenized data caches, checkpoints, logs)
+results_local/
+hf_cache/
+*.npz
+ckpt.pt
+queue/
