@@ -1,6 +1,6 @@
 # MetaTT-4D（r=8）× RoBERTa-base：論文の表 2 との比較
 
-> Colab（A100、2026-11-25）で 12 本を回したときの、`python -m metatt_repro.report` の出力を転記したもの。学習曲線は [`curves.png`](curves.png)。
+> Colab（A100、2026-11-24 UTC）で 12 本を回したときの、`python -m metatt_repro.report` の出力（そのまま）。学習曲線は [`curves.png`](curves.png)、ランごとの値は [`summary.csv`](summary.csv)、各ランのすべての記録は `runs/`。
 
 論文の値は表 2（v2・v3 で同じ）。括弧ではなく ± で標準誤差を示す。正解率は GLUE の検証データ。
 
