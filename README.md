@@ -9,6 +9,7 @@
 | 論文 | 会議・年 | 公式コード | 再現したもの | 結果（本再現 / 論文） | 判定 | 環境 |
 |---|---|---|---|---|---|---|
 | [FedTT / FedTT+](papers/2025-findings-acl-fedtt/)：Ghiasvand et al., *Communication-Efficient and Tensorized Federated Fine-Tuning of Large Language Models* | Findings of ACL 2025 | なし | 表 1 の MRPC（DeBERTa-base、5 クライアント IID、学習率 × バッチの 8 通り） | FedTT 92.50 / 92.68、FedTT+ 93.24 / 92.60（F1） | ✅ 再現（シード 1 つ） | Google Colab、A100・ハイメモリ |
+| [MetaTT](papers/2026-tmlr-metatt/)：Lopez-Piqueres et al., *MetaTT: A Global Tensor-Train Adapter for Parameter-Efficient Fine-Tuning* | TMLR 2026 | なし | 表 2 の MRPC・RTE（RoBERTa-base、MetaTT-4D ランク 8、3 シード） | MRPC 88.73 / 87.6、RTE 74.37 / 72.9（正解率、warmup 0.06・最良エポック。論文が決めていない設定の 4 通りすべてで論文の値に届く） | ✅ 再現（3 シード） | Google Colab、A100・ハイメモリ |
 
 ## 判定の基準
 

@@ -1,0 +1,6 @@
+# MetaTT reproduction (Table 2 minimal experiment). Tested with: torch 2.9.1 (CPU tests), transformers 5.24, datasets.
+torch>=2.1
+transformers>=4.40
+datasets>=2.18
+numpy
+matplotlib   # report figure only
